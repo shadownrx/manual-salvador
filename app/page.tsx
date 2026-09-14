@@ -180,7 +180,7 @@ export default function Page() {
         <p>Este manual se encuentra en construcción.<br /><span>La versión más auténtica se actualiza hablando.</span></p>
       </section>
 
-      <footer><span>MJ / S. JUÁREZ</span><span>Hecho con curiosidad y un poco de código.</span><span>© 2024 — V1.0</span></footer>
+      <footer><span>MJ / S. JUÁREZ</span><span>Hecho con curiosidad y un poco de código.</span><span>© 2026 — V1.0</span></footer>
     </main>
   )
 }

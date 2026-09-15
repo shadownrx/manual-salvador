@@ -175,12 +175,40 @@ export default function Page() {
         <div className="world-warning"><span className="highlight-label">⚠️ POSIBLE EFECTO SECUNDARIO</span><p>“Si estás hablando con Salvador y de repente la conversación pasa de una aplicación a un avión, de un avión a música y de música a una idea para una app...</p><p>No se rompió.<br />Es así.”</p></div>
       </section>
 
+      <section className="faq-section" id="seccion-08" aria-labelledby="faq-title">
+        <div className="section-heading section-heading-left">
+          <div><span className="section-kicker">SECCIÓN / 08</span><h2 id="faq-title">Preguntas<br /><em>frecuentes</em></h2></div>
+          <p>Dudas habituales<br />sobre el sistema.</p>
+        </div>
+        <div className="faq-status"><span>CURRENT VERSION: 1.0</span><span>STATUS: STILL BUILDING</span></div>
+        <div className="faq-list">
+          <details open><summary>¿Por qué tiene tantos proyectos?</summary><p>Porque una idea le lleva a otra. Y aparentemente su cerebro no conoce el concepto de “una sola cosa a la vez”.</p></details>
+          <details><summary>¿Siempre está pensando en algo?</summary><p>Bastante seguido. Si parece estar mirando al vacío, probablemente esté procesando una idea.</p></details>
+          <details><summary>¿Por qué habla tanto de tecnología?</summary><p>Porque le gusta entender cómo funcionan las cosas. Y porque probablemente ya convirtió alguna conversación en una explicación técnica sin darse cuenta.</p></details>
+          <details><summary>¿Por qué puede empezar hablando de una cosa y terminar hablando de un avión?</summary><p>No hay una explicación oficial. Se recomienda simplemente disfrutar el recorrido.</p></details>
+          <details><summary>¿Tiene una versión final?</summary><p>No encontrada.</p></details>
+          <details><summary>¿Es complicado de entender?</summary><p>Al principio quizás un poco. Pero en realidad no hace falta entender absolutamente todo. Conocerlo lleva tiempo, como cualquier persona.</p></details>
+          <details><summary>¿Qué pasa si aparece un bug?</summary><p>Se habla, se entiende qué pasó y se intenta solucionar.</p></details>
+          <details><summary>¿Qué pasa si dice “se me ocurrió algo”?</summary><p>Corré.</p></details>
+          <details className="faq-human"><summary>¿Qué es lo más importante que hay que saber de Salvador?</summary><p>Que detrás de todas las ideas, proyectos, código, música y obsesiones raras, sigue siendo una persona que simplemente quiere hacer cosas que le entusiasmen, aprender y compartir momentos con gente con la que pueda ser él mismo.</p></details>
+        </div>
+        <div className="system-complete">
+          <span className="highlight-label">MANUAL DE USUARIO — SALVADOR JUÁREZ</span>
+          <p className="system-version">Versión 1.0</p>
+          <p className="system-status"><i /> DOCUMENTACIÓN COMPLETADA</p>
+          <p className="system-quote">“Bueno. Ahora ya tenés una idea bastante decente de cómo funciona Salvador.”</p>
+          <p className="system-last">“El resto no se documenta.<br />Se conoce.”</p>
+          <a className="back-home" href="#inicio">VOLVER AL INICIO <span>↗</span></a>
+          <small>© Salvador Juárez — Hecho con curiosidad.</small>
+        </div>
+      </section>
+
       <section className="ready-note" aria-label="Nota del sistema">
         <span className="ready-icon">⌁</span>
         <p>Este manual se encuentra en construcción.<br /><span>La versión más auténtica se actualiza hablando.</span></p>
       </section>
 
-      <footer><span>MJ / S. JUÁREZ</span><span>Hecho con curiosidad y un poco de código.</span><span>© 2026 — V1.0</span></footer>
+      <footer><span>MJ / S. JUÁREZ</span><span>Hecho con curiosidad y un poco de código.</span><span>© 2024 — V1.0</span></footer>
     </main>
   )
 }
